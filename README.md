@@ -80,7 +80,7 @@ tractjs.load("./path/to/your/model").then((model) => {
 
 ### My model with dynamic input dimensions doesn't work. Why?
 
-Currently, tract requires has some restrictions on dynamic dimensions. If your model has a dynamic dimension, there's multiple solutions:
+Currently, tract has some restrictions on dynamic dimensions. If your model has a dynamic dimension, there's multiple solutions:
 
 1. Declare a dynamic dimension via an input fact. Input facts are a way to provide additional information about input type and shape that can not be inferred via the model data:
 
